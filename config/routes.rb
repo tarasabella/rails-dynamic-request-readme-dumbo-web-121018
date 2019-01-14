@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   
   get "about", to: "static#about"
   
+  resources :posts, only: :show
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
