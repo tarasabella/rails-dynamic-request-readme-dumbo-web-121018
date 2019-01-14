@@ -1,8 +1,8 @@
 class Post < ActiveRecord::Base
   
-  get '/posts', to: 'posts#index'
-  end 
+  # get '/posts', to: 'posts#index'
+  # end 
   
-  ge
+  get'/posts/:id, to: "posts#show"
 
 end
