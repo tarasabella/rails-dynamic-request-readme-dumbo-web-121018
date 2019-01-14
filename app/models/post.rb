@@ -1,4 +1,6 @@
 class Post < ActiveRecord::Base
-  resources: posts, only: :show
+  
+  get '/posts', to: 'posts#index'
+end 
 
 end
