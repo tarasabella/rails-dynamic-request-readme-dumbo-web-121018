@@ -4,5 +4,5 @@ class Post < ActiveRecord::Base
   # end 
   
   get'/posts/:id, to: "posts#show"
-
+end 
 end
