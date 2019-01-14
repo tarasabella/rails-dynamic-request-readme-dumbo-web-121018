@@ -1,4 +1,4 @@
-PostsControllerclass PostsController < ApplicationxsController
+class PostsControllerclass < ApplicationxsController
   def show 
   @
 end 
